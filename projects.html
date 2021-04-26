@@ -1,5 +1,6 @@
 <html>
 <head>
+
   <title>Projects</title>
 
 <!-- Link to BootStrap CSS-->
@@ -8,7 +9,7 @@
 <!-- Link to local CSS-->
   <link rel = 'stylesheet' href = 'styles.css'>
 
-  <!-- Links Google Font-->
+<!-- Links Google Font-->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Sonsie+One&display=swap" rel="stylesheet">
     
@@ -51,17 +52,86 @@
   </nav>
 <!-- End Navbar-->
 
-<h1> Coming Soon!</h1>
+<!-- Carousel from Bootstrap-->
+<div class = 'content'>
 
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
 
+  <div class="carousel-inner">
 
+    <div class="carousel-item active">
+      <div class = 'cards'>
 
+<!--- Card from Bootstrap-->
+          <div id = 'card' class="card" style="width: 100%; background-color: rgb(181, 171, 228)">
+              <img src="eyescreenshot.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Watching Eyes</h5>
+              <p class="card-text">
+                Eyes that follow your mouse across the window!
+              </p>
+               <a href="https://morganmaltba.github.io/Watching-Eyes/" class="btn btn-dark" style = "background-color: rgb(27, 12, 44) ;">Watching Eyes</a>
+            </div>
+          </div>
+<!--- End Card -->
 
+         </div>
+    </div>
 
+    <div class="carousel-item">
+      <div class = 'cards'>
+          
+<!--- Card from Bootstrap-->
+          <div id = 'card' class="card" style="width: 100%; background-color: rgb(100, 145, 148);">
+              <img src="pacscreenshot.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Pac-Man Frenzy</h5>
+              <p class="card-text">
+                Create an army of pac men and send them flying!
+              </p>
+              <a href="https://morganmaltba.github.io/PacMan-Frenzy/" class="btn btn-dark" style = "background-color: rgb(27, 12, 44) ;">Pac-Man Frenzy</a>
+            </div>
+          </div>
+<!--- End Card -->
 
+      </div>
+    </div>
 
+    <div class="carousel-item">
+      <div class = 'cards'>
 
+<!--- Card from Bootstrap-->
+          <div id = 'card' class="card" style="width: 100%; background-color: rgb(184, 130, 155)">
+              <img src="busscreenshot.png" class="card-img-top" alt="...">
+            <div class="card-body">
+                 <h5 class="card-title">Real-Time Bus Tracker</h5>
+              <p class="card-text">Track buses in real-time using data from MBTA!</p>
+              <a href="https://morganmaltba.github.io/Bus-Tracker/" class="btn btn-dark" style = "background-color: rgb(27, 12, 44);">Bus Tracker</a>
+            </div>
+          </div>
+<!--- End Card -->
 
+      </div>
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+</div>
+
+<h1 id = 'break'> Projects Showcase</h1>
 
 <!-- Link to Bootstrap Functionality-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
